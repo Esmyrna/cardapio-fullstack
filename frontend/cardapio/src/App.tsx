@@ -18,7 +18,7 @@ function App() {
         <C.Menu>Cardápio</C.Menu>
          <C.CardGrid>
           {data?.map(foodData => <Card 
-          price={foodData.price} 
+          price={foodData.price}   
           title={foodData.title} 
           image={foodData.image} /> )}
        </C.CardGrid>
