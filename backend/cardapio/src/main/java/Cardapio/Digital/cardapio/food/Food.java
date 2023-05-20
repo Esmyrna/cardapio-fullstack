@@ -19,7 +19,7 @@ public class Food {
     private Long id;
     String title;
     String image;
-    Integer price;
+    Double price;
 
     public Food(FoodRequestDTO data){
         this.image = data.image();
